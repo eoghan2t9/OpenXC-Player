@@ -1,5 +1,5 @@
 apt update && apt install apache2 php7.3 wget curl git -y
-curl -s https://raw.githubusercontent.com/eoghan2t9/OpenXC-Player/master/php7.3-ext.sh | sudo bash
+curl -s https://raw.githubusercontent.com/eoghan2t9/OpenXC-Player/master/php7.3-ext.sh | bash
 rm -rf /var/www/html
 git clone https://github.com/eoghan2t9/OpenXC-Player /var/www/html
 rm -rf !$/.git
